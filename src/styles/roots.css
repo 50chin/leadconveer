@@ -1,0 +1,19 @@
+:root {
+  --light-grey: #f6f6f6;
+  --orange-juice: #f60;
+  --dark-grey: #2d2d2d;
+  --white: #fff;
+  --fz-medium: 24px;
+  --fz-semi-large: 32px;
+  --fz-large: 48px;
+  --grey: #808080;
+  --gradient: linear-gradient(
+    90deg,
+    #f60 0%,
+    #f26659 27.4%,
+    #f06177 37.4%,
+    #e55d97 48.4%,
+    #ca46d2 71.4%,
+    #8d13f9 100%
+  );
+}

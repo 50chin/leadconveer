@@ -1,0 +1,39 @@
+.feedback {
+  padding-top: 120px;
+}
+
+.feedback__subtitle {
+  margin: 20px auto 0;
+  max-width: 790px;
+  color: var(--grey);
+  text-align: center;
+  font-size: 32px;
+}
+
+.feedback__cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback__videos {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback__video-block {
+  width: 580px;
+  height: 320px;
+  border-radius: 40px;
+  background: var(--dark-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback__text {
+  color: var(--dark-grey);
+  margin-top: 12px;
+}

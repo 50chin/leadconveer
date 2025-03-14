@@ -1,0 +1,27 @@
+.presentation {
+  padding-top: 120px;
+}
+
+.presentation__text-block {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+
+.presentation__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation__video-block {
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1180px;
+  height: 540px;
+  border-radius: 40px;
+  background: var(--dark-grey, #2d2d2d);
+}

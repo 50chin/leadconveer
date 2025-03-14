@@ -1,0 +1,21 @@
+.advantage-card {
+  position: relative;
+  height: 349px;
+  padding: 60px 0 0 40px;
+  border-radius: 30px;
+  background: var(--light-grey);
+}
+
+.advantage-card__text-block {
+  max-width: 460px;
+}
+
+.advantage-card__text {
+  margin-top: 25px;
+}
+
+.advantage-card__img {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}

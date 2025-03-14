@@ -1,0 +1,15 @@
+.hero-card {
+  width: 280px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 20px 20px 0 0;
+}
+
+.hero-card__title {
+  color: var(--grey);
+  text-align: center;
+  font-size: 20px;
+}

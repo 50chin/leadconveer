@@ -1,0 +1,15 @@
+.advantage {
+  padding-top: 120px;
+}
+
+.advantage__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage__wrapper {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 880px);
+  gap: 20px;
+}

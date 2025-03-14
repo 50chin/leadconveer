@@ -1,0 +1,31 @@
+.services-card {
+  width: 730px;
+  padding: 40px;
+  border-radius: 40px;
+  background: var(--light-grey);
+}
+
+.services-card__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-card__title {
+  display: flex;
+  flex-direction: column;
+  color: var(--dark-grey);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.services-card__text {
+  margin-top: 20px;
+}
+
+.services-card__btn {
+  margin-top: 30px;
+  width: 650px;
+  height: 72px;
+}

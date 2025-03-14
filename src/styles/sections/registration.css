@@ -1,0 +1,28 @@
+.registration {
+  padding-top: 120px;
+}
+
+.registration__wrapper {
+  padding: 60px 120px;
+  border-radius: 40px;
+  background: var(--dark-grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.registration__wrapper--reverse {
+  flex-direction: row-reverse;
+}
+
+.registration__title {
+  max-width: 760px;
+  color: var(--white);
+  text-align: left;
+}
+
+.registration__btn {
+  margin-top: 40px;
+  width: 760px;
+  height: 72px;
+}

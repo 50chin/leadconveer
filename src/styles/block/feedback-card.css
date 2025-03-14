@@ -1,0 +1,30 @@
+.feedback-card {
+  width: 430px;
+  height: 636px;
+  padding: 40px;
+  border-radius: 30px;
+  background: var(--light-grey);
+}
+
+.feedback-card__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.feedback-card__title {
+  color: var(--dark-grey);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.feedback-card__text {
+  color: var(--dark-grey);
+  margin-top: 20px;
+}
+
+.feedback-card__description {
+  margin-top: 20px;
+}

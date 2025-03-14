@@ -1,0 +1,12 @@
+.about-card {
+  width: 340px;
+  height: 420px;
+  padding: 30px;
+  border-radius: 40px;
+  background: var(--light-grey);
+}
+
+.about-card__title {
+  color: var(--dark-grey);
+  margin-top: 12px;
+}

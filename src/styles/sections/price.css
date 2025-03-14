@@ -1,0 +1,20 @@
+.price {
+  padding-top: 120px;
+}
+
+.price__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.price__subtitle {
+  max-width: 1036px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.price__cards {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+}

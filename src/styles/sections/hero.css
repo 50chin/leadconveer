@@ -1,0 +1,39 @@
+.hero {
+  padding-top: 60px;
+  background-color: var(--light-grey);
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.hero__subtitle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 617px;
+  margin-top: 40px;
+}
+
+.hero__btn {
+  max-width: 800px;
+  height: 72px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.hero__cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}

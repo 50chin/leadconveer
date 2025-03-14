@@ -1,0 +1,30 @@
+.slider-box {
+}
+
+.slider-box__wrapper {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-box__num {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: var(--dark-grey);
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.slider-box__subtitle {
+  margin-top: 30px;
+  max-width: 650px;
+  text-align: left;
+}
+
+.slider-box__text {
+  margin-top: 25px;
+  max-width: 730px;
+}

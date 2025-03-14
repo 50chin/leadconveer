@@ -1,0 +1,31 @@
+.technology {
+  padding: 120px 0 40px;
+}
+
+.technology__wrapper {
+  max-width: 1465px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+}
+
+.technology__text-wrapper {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+
+.technology__title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.technology__text {
+  margin-top: 20px;
+  color: var(--dark-grey);
+}
+
+.technology__text:first-of-type {
+  margin-top: 40px;
+}

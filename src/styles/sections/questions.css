@@ -1,0 +1,17 @@
+.questions {
+  padding-top: 120px;
+}
+
+.questions__wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions__accordion-block {
+  max-width: 880px;
+}
+
+.questions__img {
+  max-height: 582px;
+}

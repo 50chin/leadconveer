@@ -1,0 +1,48 @@
+.accordion-card__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 30px;
+  border: 3px solid var(--grey);
+  background: var(--light-grey);
+  color: var(--dark-grey);
+  font-size: var(--fz-medium);
+  text-align: left;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.accordion-card__btn:hover {
+  border-color: var(--orange-juice);
+}
+
+.accordion-card__btn:after {
+  content: url("../../images/svg/plus.svg");
+  width: 46px;
+  height: 46px;
+  transition: 0.3s ease-in-out;
+}
+
+.accordion-card__btn:hover::after {
+  filter: invert(74%) sepia(82%) saturate(6383%) hue-rotate(1deg)
+    brightness(102%) contrast(105%);
+}
+
+.accordion-card__btn-active:after {
+  content: url("../../images/svg/minus.svg");
+}
+
+.accordion-card__text-block {
+  margin-bottom: 25px;
+  padding: 40px;
+  border-radius: 40px;
+  background: var(--light-grey);
+  display: none;
+}
+
+.accordion-card__text {
+  color: #000;
+}
