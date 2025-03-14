@@ -5,26 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/style.css" />
     <script src="./src/script/main.js" defer type="module"></script>
-    <title>Leadconver</title>
+    <title>Leadconveer</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
-          <img
-            class="header__logo"
-            src="./src/images/svg/logo.svg"
-            alt="логотип"
-          />
+          <a href="#">
+            <img
+              class="header__logo"
+              src="./src/images/svg/logo.svg"
+              alt="логотип"
+            />
+          </a>
           <div class="header__wrapper-right">
             <nav class="header__menu">
               <ul class="header__menu-list">
                 <li class="header__menu-item">
-                  <a href="#">Как это работает</a>
+                  <a href="#sliders">Как это работает</a>
                 </li>
-                <li class="header__menu-item"><a href="#">Цена</a></li>
-                <li class="header__menu-item"><a href="#">Отзывы</a></li>
-                <li class="header__menu-item"><a href="#">Контакты</a></li>
+                <li class="header__menu-item"><a href="#price">Цена</a></li>
+                <li class="header__menu-item">
+                  <a href="#feedback">Отзывы</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="#contacts">Контакты</a>
+                </li>
               </ul>
             </nav>
             <div class="header__social-block">
@@ -88,7 +94,7 @@
           <div class="advantage__wrapper"></div>
         </div>
       </section>
-      <section class="price">
+      <section class="price" id="price">
         <div class="container">
           <h2 class="price__title title">
             Стоимость технологий
@@ -181,7 +187,7 @@
           </div>
         </div>
       </section>
-      <section class="feedback">
+      <section class="feedback" id="feedback">
         <div class="container">
           <h2 class="feedback__title title">Отзывы клиентов</h2>
           <p class="feedback__subtitle">
@@ -263,7 +269,7 @@
           </div>
         </div>
       </section>
-      <section class="sliders">
+      <section class="sliders" id="sliders">
         <div class="container">
           <div class="sliders__wrapper">
             <div class="sliders__content"></div>
@@ -364,7 +370,7 @@
             <div class="questions__accordion-block"></div>
             <img
               class="questions__img"
-              src="./src/images/faq.png"
+              src="./src/images/faq.webp"
               alt="девушка сидит с кофе в руках"
               loading="lazy"
             />
@@ -435,7 +441,7 @@
           </div>
         </div>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <div class="container">
           <div class="contacts__wrapper">
             <div class="contacts__text-block">
@@ -477,7 +483,10 @@
               </div>
             </div>
             <a href="https://web.telegram.org" target="_blank"
-              ><img src="./src/images/building.jpg" alt="здание" loading="lazy"
+              ><img
+                src="./src/images/building.webp"
+                alt="здание"
+                loading="lazy"
             /></a>
           </div>
         </div>
